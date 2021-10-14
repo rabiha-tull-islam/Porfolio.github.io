@@ -4,7 +4,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Header_Background{
-        background-image: url("../Porfolio.github.io/Images/Backgound3.jpg");
+        background-image: url("./Images/Backgound3.jpg");
         height: 624px;
         /* width: 100%; */
         background-position: center;
