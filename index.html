@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <title>MyPortfolio</title>
+</head>
+
+<body>
+  <header class="container-fluid Header_Background">
+    <div class="row Header_text ">
+      <h1 class="col-12 text-center text-light">Hello, I'm <span class="text-danger">Hamza Mughal</span>. <br> I'm a
+        Full-Stack Developer.</h1>
+    </div>
+    <div class="row Header_text  ">
+      <button class="col-2 Header_btn  " onclick="changeArrow()">View My Work <svg xmlns="http://www.w3.org/2000/svg"
+          width="33" height="33" fill="currentColor" class="bi bi-arrow-right-short Header_RightArrow"
+          viewBox="0 0 16 16" id="btn1">
+          <path fill-rule="evenodd"
+            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+        </svg></button>
+
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+</svg> -->
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  NavBar">
+      <div class="container-fluid w-100">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <Section class="info">
+      <h1>ABOUT </h1>
+      <div id="Features">
+        <div class="row  justify-content-center">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 p-4 ">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/Speed-Up-Your-Event’s-Website.jpg" alt="" srcset="" class="image-fliud">
+                  <h1 class="card-title">Fast</h1>
+                  <p class="card-text">Fast load times and lag free interaction, my highest priority.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 p-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/5970846-middle.png" alt="" srcset="" class="image-fliud ">
+                  <h1 class="card-title">Responsive
+                    </h1>
+                  <p class="card-text">My layouts will work on any device, big or small.</p>                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 p-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/download (1).png" alt="" srcset="" class="image-fliud ">
+                  <h1 class="card-title">Intuitive</h1>
+                  <p class="card-text">
+                    Strong preference for easy to use, intuitive UX/UI.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 p-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/download.jpg" alt="" srcset="" class="image-fliud ">
+                  <h1 class="card-title">Dynamic
+                   </h1>
+                  <p class="card-text"> Websites don't have to be static, I love making pages come to life..</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row p-5 ">
+        <div class="col-md-6 text-center">
+          <img src="images/mypic.jpeg" alt="" srcset="" class="image-fluid mypic">
+          <div class=" text-center My_details ">
+            <h1 class="p-4">Who's this guy?</h1>
+            <p class="p-1"> I'm a Front-End Developer for <a href="http://" target="_blank" rel="noopener noreferrer">ChowNow</a>  in Los Angeles, CA.
+              I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. <a href="http://" target="_blank" rel="noopener noreferrer">
+                Let's make something special.</a>
+              </p>
+          </div>
+         
+        </div>
+        <div class="col-md-6 p-3">
+          
+            <div class="progress" style="height: 22px;">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 200%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">HTML </span></div><span class="number_progress">95%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 99%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">CSS</span></div><span class="number_progress">85%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">JavaScript</span></div><span class="number_progress">80%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 188%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">Angular</span></div><span class="number_progress">92%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 88%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">Node.js</span></div><span class="number_progress">85%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">Ruby/Rails</span></div><span class="number_progress">88%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 140%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">UI Design</span></div><span class="number_progress">80%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 88%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">PhotoShop</span></div><span class="number_progress">85%</span> 
+            </div>
+            <div class="progress mt-4" style="height: 22px; ">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 200%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="text_progress">Sketch</span></div><span class="number_progress">95%</span> 
+            </div>
+                         
+          </div>
+      </div>
+    </Section>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
